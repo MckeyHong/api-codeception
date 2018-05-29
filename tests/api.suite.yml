@@ -1,0 +1,7 @@
+actor: ApiTester
+modules:
+    enabled:
+        - REST:
+            url: https://hiskio.com/api/v1/
+            depends: PhpBrowser
+            part: Json
